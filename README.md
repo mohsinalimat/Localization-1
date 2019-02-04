@@ -22,7 +22,7 @@ import LocalizableLib
 
 // for right to left language
 
- MoLocalization.setCurrentLang(lang: Constants.defaultLanguage,
+ MoLocalization.setCurrentLang(lang: "ar",
                                           isRightToLeft: true,
                                           forceReset: true,
                                           startStoryBorad: "Main",
@@ -30,7 +30,7 @@ import LocalizableLib
 
 // for left to right language
 
- MoLocalization.setCurrentLang(lang: Constants.defaultLanguage,
+ MoLocalization.setCurrentLang(lang: "en",
                                           isRightToLeft: false,
                                           forceReset: true,
                                           startStoryBorad: "Main",
